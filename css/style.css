@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  background-image: url('../images/blue-grey.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#particles canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.rounded {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#hero {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+  height: 48px;
+  line-height: 48px;
+}
+
+
+
+.person {
+  margin: 24px;
+}
+.person .person-image img {
+  border-radius: 100%;
+  width: 128px;
+  height: 128px;
+}
+
+.person .person-name {
+  font-size: 24px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+}
+
+.divider.padded {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+
+.screenshot {
+  display: inline;
+}
+
+.screenshot img{
+  max-width: 250px;
+  margin: 2px;
+  border-radius: 8px;
+
+}
+
+.material-placeholder, .materialboxed {
+  display: inline;
+}
