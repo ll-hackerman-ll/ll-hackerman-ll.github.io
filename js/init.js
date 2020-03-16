@@ -1,6 +1,18 @@
+var sidenav
+
+function closeSidenav() {
+  sidenav[0]._closeBound()
+}
+
 $(document).ready(function() {
   console.log('initialize Materialize...')
   M.AutoInit()
+
+  sidenav = M.Sidenav.init(document.querySelectorAll('.sidenav'))
+  $('.sidenav > li').click(function() {
+    closeSidenav()
+  })
+
   console.log('initialize Tilt...')
 
   $('#logo').tilt({

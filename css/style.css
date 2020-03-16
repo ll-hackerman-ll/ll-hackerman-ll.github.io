@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -29,15 +33,17 @@ main {
   margin-bottom: 64px;
 }
 
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger,
+nav a.sidenav-trigger i {
   height: 48px;
   line-height: 48px;
 }
 
-
-
 .person {
-  margin: 24px;
+  margin: 16px;
+  height: 250px;
 }
 .person .person-image img {
   border-radius: 100%;
@@ -47,6 +53,13 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
 
 .person .person-name {
   font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
+
+.person .person-position {
+  font-size: 18px;
   font-weight: 300;
   width: 100%;
   text-align: center;
@@ -54,21 +67,31 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
 
 .divider.padded {
   margin-top: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
-
 
 .screenshot {
   display: inline;
 }
 
-.screenshot img{
-  max-width: 250px;
+.screenshot img {
+  max-width: 200px;
   margin: 2px;
   border-radius: 8px;
-
+  border: 1px solid #aaa;
 }
 
-.material-placeholder, .materialboxed {
+.material-placeholder,
+.materialboxed {
   display: inline;
+}
+
+.feature {
+  padding: 16px !important;
+  border-radius: 8px;
+}
+
+.padded-x {
+  padding-left: 48px;
+  padding-right: 48px;
 }
