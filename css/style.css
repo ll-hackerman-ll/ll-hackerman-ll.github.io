@@ -95,3 +95,12 @@ nav a.sidenav-trigger i {
   padding-left: 48px;
   padding-right: 48px;
 }
+
+.page-footer {
+  padding-top: initial;
+}
+
+.dotted-ul {
+  text-decoration: underline currentColor;
+  text-decoration-style: dashed;
+}
