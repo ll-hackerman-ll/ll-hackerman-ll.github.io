@@ -109,6 +109,10 @@ nav a.sidenav-trigger i {
   width: 100% !important;
 }
 
+#devicesmodal .header {
+  margin: 0;
+}
+
 .device .card-panel {
   transition: all 0.5s ease-in-out;
 }
@@ -116,4 +120,30 @@ nav a.sidenav-trigger i {
 .device .card-panel:hover{
   background: #263238;
   color: white;
+}
+
+.devices {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.devices::-webkit-scrollbar {
+  display: none;
+}
+
+.device {
+  /* width: 190px; */
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.device .card-panel {
+  margin: 0;
+}
+
+.device-maintainer {
+  margin: 0;
 }
