@@ -1,637 +1,640 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CesiumOS | Home</title>
-    <!-- Compiled and minified CSS -->
-    <link href="css/lib/materialize.min.css" rel="stylesheet" />
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/lib/svgicons.css" />
-    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="icon" href="images/logo.png" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CesiumOS | Home</title>
+  <!-- Compiled and minified CSS -->
+  <link href="css/lib/materialize.min.css" rel="stylesheet" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+  <link rel="stylesheet" href="css/lib/svgicons.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <div id="particles"></div>
+  <link rel="icon" href="images/logo.png" />
+</head>
 
-    <header>
-      <div class="navbar-fixed">
-        <nav class="blue-grey darken-4">
-          <div class="nav-wrapper">
-            <div class="container">
-              <a href="#!" class="brand-logo">CesiumOS</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-                ><i class="material-icons-round">menu</i></a
-              >
-              <ul class="right hide-on-med-and-down">
-                <li class="waves-effect waves-light"><a href="#">Home</a></li>
-                <li class="waves-effect waves-light">
-                  <a href="#features">Features</a>
-                </li>
-                <li class="waves-effect waves-light">
-                  <a href="#devices">Devices</a>
-                </li>
-                <li class="waves-effect waves-light">
-                  <a href="#screenshots">Screenshots</a>
-                </li>
-                <li class="waves-effect waves-light">
-                  <a href="#team">Team</a>
-                </li>
-                <li class="waves-effect waves-light">
-                  <a href="#download">Download</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a class="waves-effect" href="#">Home</a></li>
-        <li><a class="waves-effect" href="#features">Features</a></li>
-        <li><a class="waves-effect" href="#devices">Devices</a></li>
-        <li><a class="waves-effect" href="#screenshots">Screenshots</a></li>
-        <li><a class="waves-effect" href="#team">Team</a></li>
-        <li><a class="waves-effect" href="#download">Download</a></li>
-      </ul>
-    </header>
+<body>
+  <div id="particles"></div>
 
-    <main>
-      <section class="section" id="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col s12 l6 push-l6 center">
-              <img
-                src="images/logo.png"
-                alt=""
-                id="logo"
-                style="max-width: 50vw; max-height: 50vh;"
-              />
-            </div>
-
-            <div class="col s12 l6 pull-l6">
-              <h1 class="white-text">CesiumOS</h1>
-
-              <p class="light flow-text white-text">
-                Welcome to CesiumOS, Yet another AOSP project. But this is one
-                that will be a very different and exciting project. What
-                differentiates us from the rest, you ask? Well that’s why you’re
-                here – to find out.
-              </p>
-
-              <a
-                href="https://sourceforge.net/projects/cesiumos/files/"
-                class="btn btn-large rounded blue waves-effect waves-light hoverable"
-              >
-                <i class="material-icons-round left"> cloud_download </i>
-                Download
-              </a>
-            </div>
+  <header>
+    <div class="navbar-fixed">
+      <nav class="blue-grey darken-4">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#!" class="brand-logo">CesiumOS</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons-round">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li class="waves-effect waves-light"><a href="#">Home</a></li>
+              <li class="waves-effect waves-light">
+                <a href="#features">Features</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#devices">Devices</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#screenshots">Screenshots</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#team">Team</a>
+              </li>
+              <li class="waves-effect waves-light">
+                <a href="#download">Download</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a class="waves-effect" href="#">Home</a></li>
+      <li><a class="waves-effect" href="#features">Features</a></li>
+      <li><a class="waves-effect" href="#devices">Devices</a></li>
+      <li><a class="waves-effect" href="#screenshots">Screenshots</a></li>
+      <li><a class="waves-effect" href="#team">Team</a></li>
+      <li><a class="waves-effect" href="#download">Download</a></li>
+    </ul>
+  </header>
 
-      <div class="section">
-        <div class="container">
-          <div class="card-panel rounded">
-            <section class="section" id="features">
-              <h2 class="center">
-                Features
-              </h2>
+  <main>
+    <section class="section" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6 push-l6 center">
+            <img src="images/logo.png" alt="" id="logo" style="max-width: 50vw; max-height: 50vh;" />
+          </div>
 
-              <div class="row">
-                <div
-                  class="col s12 m6 l4 center feature hoverable waves-effect"
-                >
-                  <i class="material-icons-round medium blue-text">code</i>
-                  <h4>Open Source</h4>
-                  <p>
-                    Don’t see a feature you want? Have experience with custom
-                    roms? Fork it from Github and make it our own!
-                  </p>
-                </div>
+          <div class="col s12 l6 pull-l6">
+            <h1 class="white-text">CesiumOS</h1>
 
-                <div
-                  class="col s12 m6 l4 center feature hoverable waves-effect"
-                >
-                  <i class="material-icons-round medium pink-text">update</i>
-                  <h4>Up to date</h4>
-                  <p>
-                    Constantly ensuring that the latest security patches
-                    provided by Google to insure your device is as secure as
-                    possible!
-                  </p>
-                </div>
+            <p class="light flow-text white-text">
+              Welcome to CesiumOS, Yet another AOSP project. But this is one
+              that will be a very different and exciting project. What
+              differentiates us from the rest, you ask? Well that’s why you’re
+              here – to find out.
+            </p>
 
-                <div
-                  class="col s12 m6 l4 center feature hoverable waves-effect"
-                >
-                  <i class="material-icons-round medium orange-text"
-                    >mobile_friendly</i
-                  >
-                  <h4>Device Support</h4>
-                  <p>
-                    We support a wide range of devices and always try to expand
-                    it even more. Like our recently released Begonia build!
-                  </p>
-                </div>
+            <a href="https://sourceforge.net/projects/cesiumos/files/"
+              class="btn btn-large rounded blue waves-effect waves-light hoverable">
+              <i class="material-icons-round left"> cloud_download </i>
+              Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div
-                  class="col s12 m6 l4 center feature hoverable waves-effect"
-                >
-                  <i class="material-icons-round medium purple-text"
-                    >system_update</i
-                  >
-                  <h4>OTA</h4>
-                  <p>
-                    Making it simpler for you to stay updated by providing
-                    Over-the-air updates so you can easily and quickly update
-                    your device to the latest and greatest CesiumOS build.
-                  </p>
-                </div>
+    <div class="section">
+      <div class="container">
+        <div class="card-panel rounded">
+          <section class="section" id="features">
+            <h2 class="center">
+              Features
+            </h2>
 
-                <div
-                  class="col s12 m6 l4 center feature hoverable waves-effect"
-                >
-                  <i class="material-icons-round medium green-text">lock</i>
-                  <h4>App Lock</h4>
-                  <p>
-                    Secure your favorite apps with out of the box support for
-                    app lock.
-                  </p>
+            <div class="row">
+              <div class="col s12 m6 l4 center feature hoverable waves-effect">
+                <i class="material-icons-round medium blue-text">code</i>
+                <h4>Open Source</h4>
+                <p>
+                  Don’t see a feature you want? Have experience with custom
+                  roms? Fork it from Github and make it our own!
+                </p>
+              </div>
+
+              <div class="col s12 m6 l4 center feature hoverable waves-effect">
+                <i class="material-icons-round medium pink-text">update</i>
+                <h4>Up to date</h4>
+                <p>
+                  Constantly ensuring that the latest security patches
+                  provided by Google to insure your device is as secure as
+                  possible!
+                </p>
+              </div>
+
+              <div class="col s12 m6 l4 center feature hoverable waves-effect">
+                <i class="material-icons-round medium orange-text">mobile_friendly</i>
+                <h4>Device Support</h4>
+                <p>
+                  We support a wide range of devices and always try to expand
+                  it even more. Like our recently released Begonia build!
+                </p>
+              </div>
+
+              <div class="col s12 m6 l4 center feature hoverable waves-effect">
+                <i class="material-icons-round medium purple-text">system_update</i>
+                <h4>OTA</h4>
+                <p>
+                  Making it simpler for you to stay updated by providing
+                  Over-the-air updates so you can easily and quickly update
+                  your device to the latest and greatest CesiumOS build.
+                </p>
+              </div>
+
+              <div class="col s12 m6 l4 center feature hoverable waves-effect">
+                <i class="material-icons-round medium green-text">lock</i>
+                <h4>App Lock</h4>
+                <p>
+                  Secure your favorite apps with out of the box support for
+                  app lock.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <div class="divider padded"></div>
+
+          <section class="section" id="devices">
+            <h2 class="center">Devices</h2>
+
+            <div class="row">
+              <div class="col s10 offset-s1">
+                <p class="center">
+                  While we strive to support as many devices as possible there
+                  is only so much we can do. You are always welcome to join
+                  our Official Telegram Group to inquire about a device. Or
+                  you could always contact a developer from another project to
+                  port CesiumOS to your device!
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                <div class="center">
+                  <a href="#devicesmodal"
+                    class="btn blue rounded waves-effect waves-light hoverable modal-trigger">Supported devices</a>
                 </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <div class="divider padded"></div>
+          <div class="divider padded"></div>
 
-            <section class="section" id="devices">
-              <h2 class="center">Devices</h2>
+          <section class="section" id="screenshots">
+            <h2 class="center">Screenshots</h2>
 
-              <div class="row">
-                <div class="col s10 offset-s1">
-                  <p class="center">
-                    While we strive to support as many devices as possible there
-                    is only so much we can do. You are always welcome to join
-                    our Official Telegram Group to inquire about a device. Or
-                    you could always contact a developer from another project to
-                    port CesiumOS to your device!
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12">
-                  <div class="center">
-                    <a
-                      href="#devicesmodal"
-                      class="btn blue rounded waves-effect waves-light hoverable modal-trigger"
-                      >Supported devices</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <div class="divider padded"></div>
-
-            <section class="section" id="screenshots">
-              <h2 class="center">Screenshots</h2>
-
-              <div class="row">
-                <div class="col s12">
-                  <ul class="screenshots center">
-                    <li class="screenshot">
-                      <img src="images/screens/0.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/1.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/2.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/3.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/4.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/5.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/6.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/7.jpg" class="materialboxed" />
-                    </li>
-                    <li class="screenshot">
-                      <img src="images/screens/8.jpg" class="materialboxed" />
-                    </li>
-                    <!-- <li class="screenshot">
+            <div class="row">
+              <div class="col s12">
+                <ul class="screenshots center">
+                  <li class="screenshot">
+                    <img src="images/screens/0.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/1.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/2.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/3.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/4.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/5.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/6.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/7.jpg" class="materialboxed" />
+                  </li>
+                  <li class="screenshot">
+                    <img src="images/screens/8.jpg" class="materialboxed" />
+                  </li>
+                  <!-- <li class="screenshot">
                       <img src="images/screens/9.jpg" class="materialboxed" />
                     </li>
                     <li class="screenshot">
                       <img src="images/screens/10.jpg" class="materialboxed" />
                     </li> -->
-                  </ul>
-                </div>
+                </ul>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <div class="divider padded"></div>
+          <div class="divider padded"></div>
 
-            <section class="section" id="team">
-              <h2 class="center">
-                Team
-              </h2>
+          <section class="section" id="team">
+            <h2 class="center">
+              Team
+            </h2>
 
-              <div class="row">
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/bunnyy.jpg" alt="" />
-                    </div>
-                    <div class="person-name">Himanshu Singhal (bunnyy)</div>
-                    <div class="person-position">Project Owner</div>
-
-                    <div class="person-links center">
-                      <a
-                        href="https://github.com/BunsExynos"
-                        class="black-text"
-                      >
-                        <svg
-                          class="svg-icon"
-                          data-prefix="fab"
-                          data-icon="github"
-                          role="img"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 496 512"
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                            class=""
-                          ></path>
-                        </svg>
-                      </a>
-                    </div>
+            <div class="row">
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/bunnyy.jpg" alt="" />
                   </div>
-                </div>
+                  <div class="person-name">Himanshu Singhal (bunnyy)</div>
+                  <div class="person-position">Project Owner</div>
 
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/sahil.jpg" alt="" />
-                    </div>
-                    <div class="person-name">Sahil Sonar</div>
-                    <div class="person-position">Lead Developer</div>
-
-                    <div class="person-links center">
-                      <a
-                        href="https://github.com/SahilSonar"
-                        class="black-text"
-                      >
-                        <svg
-                          class="svg-icon"
-                          data-prefix="fab"
-                          data-icon="github"
-                          role="img"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 496 512"
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                            class=""
-                          ></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/nikhil.jpg" alt="" />
-                    </div>
-                    <div class="person-name">Nikhil Kumar</div>
-                    <div class="person-position">Lead Designer</div>
-
-                    <div class="person-links center"></div>
-                  </div>
-                </div>
-
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/miuno.jpg" alt="" />
-                    </div>
-                    <div class="person-name">MIUNO</div>
-                    <div class="person-position">Graphics Designer</div>
-
-                    <div class="person-links center"></div>
-                  </div>
-                </div>
-
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/tushar.jpg" alt="" />
-                    </div>
-                    <div class="person-name">Tushar Mahajan</div>
-                    <div class="person-position">Project Co-ordinator</div>
-
-                    <div class="person-links center">
-                      <a
-                        href="https://github.com/mahajant99"
-                        class="black-text"
-                      >
-                        <svg
-                          class="svg-icon"
-                          data-prefix="fab"
-                          data-icon="github"
-                          role="img"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 496 512"
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                            class=""
-                          ></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/sid.jpg" alt="" />
-                    </div>
-                    <div class="person-name">Sid</div>
-                    <div class="person-position">Co project Co-ordinator</div>
-
-                    <div class="person-links center">
-                      <a
-                      href="https://github.com/Sid127"
-                      class="black-text"
-                    >
-                      <svg
-                        class="svg-icon"
-                        data-prefix="fab"
-                        data-icon="github"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 496 512"
-                      >
-                        <path
-                          fill="currentColor"
+                  <div class="person-links center">
+                    <a href="https://github.com/BunsExynos" class="black-text">
+                      <svg class="svg-icon" data-prefix="fab" data-icon="github" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path fill="currentColor"
                           d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                          class=""
-                        ></path>
+                          class=""></path>
                       </svg>
                     </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col s12 m4">
-                  <div class="person center">
-                    <div class="person-image">
-                      <img src="images/avatar/fred.jpg" alt="" />
-                    </div>
-                    <div class="person-name">Fred</div>
-                    <div class="person-position">
-                      Server Infrastructure Maintainer
-                    </div>
-
-                    <div class="person-links center">
-                     
-                    </div>
                   </div>
                 </div>
               </div>
-            </section>
 
-            <div class="divider padded"></div>
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/sahil.jpg" alt="" />
+                  </div>
+                  <div class="person-name">Sahil Sonar</div>
+                  <div class="person-position">Lead Developer</div>
 
-            <section class="section" id="support">
-              <h2 class="center">Support</h2>
-
-              <div class="row">
-                <div class="col s12">
-                  <p class="center">
-                    You are always welcome to join our Official Telegram Group
-                    to inquire about a device.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12 center">
-                  <a
-                    href="https://t.me/cesiumos_official"
-                    class="btn blue rounded waves-effect waves-light hoverable"
-                    >Open Telegram</a
-                  >
-
-                  <a
-                    href="https://github.com/CesiumOS"
-                    class="btn blue rounded waves-effect waves-light hoverable"
-                    >GitHub</a
-                  >
-                </div>
-              </div>
-            </section>
-
-            <div class="divider padded"></div>
-
-            <section class="section" id="download">
-              <h2 class="center">Download</h2>
-
-              <div class="row">
-                <div class="col s12">
-                  <p class="center">
-                    Can’t wait to get your hands on CesiumOS?
-                  </p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="s12 ">
-                  <div class="center">
-                    <a
-                      href="https://sourceforge.net/projects/cesiumos/files/"
-                      class="btn btn-large rounded blue waves-effect waves-light hoverable"
-                    >
-                      <i class="material-icons-round left"> cloud_download </i>
-                      Download
+                  <div class="person-links center">
+                    <a href="https://github.com/SahilSonar" class="black-text">
+                      <svg class="svg-icon" data-prefix="fab" data-icon="github" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path fill="currentColor"
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          class=""></path>
+                      </svg>
                     </a>
                   </div>
                 </div>
               </div>
-            </section>
 
-            <div class="divider padded"></div>
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/nikhil.jpg" alt="" />
+                  </div>
+                  <div class="person-name">Nikhil Kumar</div>
+                  <div class="person-position">Lead Designer</div>
 
-            <section class="section" id="download">
-              <h2 class="center">Donate</h2>
-
-              <div class="row">
-                <div class="col s12">
-                  <p class="center">
-                    Did you like the project? Show your support by donating via
-                    PayPal!
-                  </p>
+                  <div class="person-links center"></div>
                 </div>
               </div>
 
-              <div class="row">
-                <div class="s12 ">
-                  <div class="center">
-                    <a
-                      href="https://paypal.me/bunnyy95"
-                      class="btn btn-large rounded purple waves-effect waves-light hoverable"
-                    >
-                      <i class="material-icons-round left"> monetization_on </i>
-                      Donate
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/miuno.jpg" alt="" />
+                  </div>
+                  <div class="person-name">MIUNO</div>
+                  <div class="person-position">Graphics Designer</div>
+
+                  <div class="person-links center"></div>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/tushar.jpg" alt="" />
+                  </div>
+                  <div class="person-name">Tushar Mahajan</div>
+                  <div class="person-position">Project Co-ordinator</div>
+
+                  <div class="person-links center">
+                    <a href="https://github.com/mahajant99" class="black-text">
+                      <svg class="svg-icon" data-prefix="fab" data-icon="github" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path fill="currentColor"
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          class=""></path>
+                      </svg>
                     </a>
                   </div>
                 </div>
               </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </main>
 
-    <footer class="page-footer blue-grey darken-4">
-      <div class="footer-copyright">
-        <div class="container center">
-          Designed by
-          <a
-            class="grey-text text-lighten-2 dotted-ul"
-            href="https://krushndayshmookh.github.io"
-          >
-            Krushn Dayshmookh
-          </a>
-        </div>
-      </div>
-    </footer>
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/sid.jpg" alt="" />
+                  </div>
+                  <div class="person-name">Sid</div>
+                  <div class="person-position">Co project Co-ordinator</div>
 
-    <div class="modal bottom-sheet" id="devicesmodal">
-      <div class="modal-content">
-        <div class="row">
-          <h3 class="header col s12">Officially Supported Devices</h3>
-        </div>
-        <div class="devices">
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
+                  <div class="person-links center">
+                    <a href="https://github.com/Sid127" class="black-text">
+                      <svg class="svg-icon" data-prefix="fab" data-icon="github" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path fill="currentColor"
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          class=""></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
               </div>
-              
-            </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
-              </div>
-              
-            </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
-              </div>
-              
-            </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
-              </div>
-              
-            </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
-              </div>
-              
-            </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
-              </div>
-              
-            </div>
-          </div>
 
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
+              <div class="col s12 m4">
+                <div class="person center">
+                  <div class="person-image">
+                    <img src="images/avatar/fred.jpg" alt="" />
+                  </div>
+                  <div class="person-name">Fred</div>
+                  <div class="person-position">
+                    Server Infrastructure Maintainer
+                  </div>
+
+                  <div class="person-links center">
+
+                  </div>
+                </div>
               </div>
-              
             </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
+          </section>
+
+          <div class="divider padded"></div>
+
+          <section class="section" id="support">
+            <h2 class="center">Support</h2>
+
+            <div class="row">
+              <div class="col s12">
+                <p class="center">
+                  You are always welcome to join our Official Telegram Group
+                  to inquire about a device.
+                </p>
               </div>
-              
             </div>
-          </div>
-          <div class="device">
-            <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
-              <div class="full-width center">
-                <i class="material-icons-round medium">phone_android</i>
-                <h5 class="device-name">Nokia 6.1 Plus</h5>
-                <p class="device-maintainer">Lk</p>
+            <div class="row">
+              <div class="col s12 center">
+                <a href="https://t.me/cesiumos_official"
+                  class="btn blue rounded waves-effect waves-light hoverable">Open Telegram</a>
+
+                <a href="https://github.com/CesiumOS"
+                  class="btn blue rounded waves-effect waves-light hoverable">GitHub</a>
               </div>
-              
             </div>
-          </div>
+          </section>
+
+          <div class="divider padded"></div>
+
+          <section class="section" id="download">
+            <h2 class="center">Download</h2>
+
+            <div class="row">
+              <div class="col s12">
+                <p class="center">
+                  Can’t wait to get your hands on CesiumOS?
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="s12 ">
+                <div class="center">
+                  <a href="https://sourceforge.net/projects/cesiumos/files/"
+                    class="btn btn-large rounded blue waves-effect waves-light hoverable">
+                    <i class="material-icons-round left"> cloud_download </i>
+                    Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="divider padded"></div>
+
+          <section class="section" id="download">
+            <h2 class="center">Donate</h2>
+
+            <div class="row">
+              <div class="col s12">
+                <p class="center">
+                  Did you like the project? Show your support by donating via
+                  PayPal!
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="s12 ">
+                <div class="center">
+                  <a href="https://paypal.me/bunnyy95"
+                    class="btn btn-large rounded purple waves-effect waves-light hoverable">
+                    <i class="material-icons-round left"> monetization_on </i>
+                    Donate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
+  </main>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="js/lib/jquery.min.js"></script>
-    <script src="js/lib/materialize.min.js"></script>
-    <script src="js/lib/tilt.jquery.min.js"></script>
-    <script src="js/lib/particles.min.js"></script>
-    <script src="js/init.js"></script>
-  </body>
+  <footer class="page-footer blue-grey darken-4">
+    <div class="footer-copyright">
+      <div class="container center">
+        Designed by
+        <a class="grey-text text-lighten-2 dotted-ul" href="https://krushndayshmookh.github.io">
+          Krushn Dayshmookh
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal bottom-sheet" id="devicesmodal">
+    <div class="modal-content">
+      <div class="row">
+        <h3 class="header col s12">Officially Supported Devices</h3>
+      </div>
+      <div class="devices">
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Samsung A5 & A7 2016</h5>
+              <p class="device-maintainer">bunnyy</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Note 8 Pro</h5>
+              <p class="device-maintainer">Sahil</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Pocophone F1</h5>
+              <p class="device-maintainer">Sahil </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Asus Zefone Max Pro M1</h5>
+              <p class="device-maintainer">Prabhat</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Generic System Image(GSI)</h5>
+              <p class="device-maintainer">Jamie</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Leeco Le2</h5>
+              <p class="device-maintainer">Lk</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Mi A1</h5>
+              <p class="device-maintainer">Rifky</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Nokia 6.1 Plus</h5>
+              <p class="device-maintainer">Lk</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Oneplus 3/3T</h5>
+              <p class="device-maintainer">Dinesh</p>
+            </div>
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi K20 Pro</h5>
+              <p class="device-maintainer">Samyak</p>
+            </div>
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Note 8/8T</h5>
+              <p class="device-maintainer">Srinivas</p>
+            </div>
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Note 7 Pro</h5>
+              <p class="device-maintainer">Saurav</p>
+            </div>
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Note 7</h5>
+              <p class="device-maintainer">zenitsu</p>
+            </div>
+          </div>
+        </div>
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi 6 Pro</h5>
+              <p class="device-maintainer">Tushar Mahajan</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Y2</h5>
+              <p class="device-maintainer">Tushar Mahajan</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Note 5 Pro</h5>
+              <p class="device-maintainer">Ayush</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi Note 4 </h5>
+              <p class="device-maintainer">Shashank</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="device">
+          <div class="card-panel valign-wrapper z-depth-3 waves-effect waves-light">
+            <div class="full-width center">
+              <i class="material-icons-round medium">phone_android</i>
+              <h5 class="device-name">Redmi 3s Prime </h5>
+              <p class="device-maintainer">Hari</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/lib/materialize.min.js"></script>
+  <script src="js/lib/tilt.jquery.min.js"></script>
+  <script src="js/lib/particles.min.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
 </html>
