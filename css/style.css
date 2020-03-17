@@ -104,3 +104,16 @@ nav a.sidenav-trigger i {
   text-decoration: underline currentColor;
   text-decoration-style: dashed;
 }
+
+.full-width {
+  width: 100% !important;
+}
+
+.device .card-panel {
+  transition: all 0.5s ease-in-out;
+}
+
+.device .card-panel:hover{
+  background: #263238;
+  color: white;
+}
